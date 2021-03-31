@@ -1,0 +1,31 @@
+.home__container {
+
+}
+.home__image {
+  width: 100%;
+  z-index: -1;
+  height: 450px;
+}
+.home__row {
+  display: flex;
+  padding: 15px 30px;
+  overflow: overlay;
+  position: relative;
+}
+.scrollarrow {
+  position: absolute;
+  z-index: 10;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  top: 50%;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+.scrollarrow.left {
+  left: 0px;
+}
+.scrollarrow.right {
+  right: 0;
+}
